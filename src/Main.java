@@ -12,9 +12,9 @@ public class Main {
         System.out.println("Задание 2");
         short clientDeviceYear = 2010;
         if (clientOS == 0 && clientDeviceYear <= 2015) {
-            System.out.println("Установите облегчённую версию для IOS по ссылке");
+            System.out.println("Установите облегчённую версию для IOS по ссылке ...");
         } else if (clientOS == 1 && clientDeviceYear <= 2015) {
-            System.out.println("Установите облегчённую версию приложения для Android по ссылке");
+            System.out.println("Установите облегчённую версию приложения для Android по ссылке ...");
         } else if (clientDeviceYear > 2015 && clientOS == 0) {
             System.out.println("Установите приложение для IOS по ссылке");
         } else if (clientDeviceYear > 2015 && clientOS == 1) {
